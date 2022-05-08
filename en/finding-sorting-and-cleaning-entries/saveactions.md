@@ -151,30 +151,30 @@ Shortens lists of persons if there are more than 2 persons to \"et al.\".
 
 The [field formatters listed above](saveactions.md#list-of-actions) can also be used as modifiers in [citation key patterns](../setup/citationkeypatterns.md) using their keys listed below.
 
-| Save action | Key |
-| :--- | :--- |
-| [Clear](saveactions.md#clear) | `clear` |
-| [Escape underscores](saveactions.md#escape-underscores) | `escapeUnderscores` |
-| [Escape ampersands](saveactions.md#escape-ampersands) | `escapeAmpersands` |
-| [HTML to LaTeX](saveactions.md#html-to-latex) | `html_to_latex` |
-| [Cleanup URL link](saveactions.md#cleanup-url-link) | `cleanup_url` |
-| [HTML to Unicode](saveactions.md#html-to-unicode) | `html_to_unicode` |
-| [LaTeX cleanup](saveactions.md#latex-cleanup) | `latex_cleanup` |
-| [Normalize date](saveactions.md#normalize-date) | `normalize_date` |
-| [Normalize month](saveactions.md#normalize-month) | `normalize_month` |
-| [Normalize names of persons](saveactions.md#normalize-names-of-persons) | `normalize_names` |
-| [Prepare for BibTeX: Normalize page numbers](saveactions.md#normalize-page-numbers) | `Prepare for BibTeX: Normalize page numbers` |
-| [Ordinals to LaTeX superscript](saveactions.md#ordinals-to-latex-superscript) | `ordinals_to_superscript` |
-| [Remove enclosing braces](saveactions.md#remove-enclosing-braces) | `remove_braces` |
-| [Shorten DOI](saveactions.md#shorten-doi) | `short_doi` |
-| [Unicode to LaTeX](saveactions.md#unicode-to-latex) | `unicode_to_latex` |
-| [Latex to Unicode](saveactions.md#latex-to-unicode) | `latex_to_unicode` |
-| [Units to LaTeX](saveactions.md#units-to-latex) | `units_to_latex` |
-| [Unprotect terms](saveactions.md#unprotect-terms) | `unprotect_terms` |
-| [Capitalize](saveactions.md#capitalize) | `capitalize` |
-| [Lower case](saveactions.md#lower-case) | `lower_case` |
-| [Sentence case](saveactions.md#sentence-case) | `sentence_case` |
-| [Title case](saveactions.md#title-case) | `title_case` |
-| [Upper case](saveactions.md#upper-case) | `upper_case` |
-| [Minify list of person names](saveactions.md#minify-list-of-person-names) | `minify_name_list` |
+| Save action                                                                                             | Key |
+|:--------------------------------------------------------------------------------------------------------| :--- |
+| [Clear](saveactions.md#clear)                                                                           | `clear` |
+| [Escape underscores](saveactions.md#escape-underscores)                                                 | `escapeUnderscores` |
+| [Escape ampersands](saveactions.md#escape-ampersands)                                                   | `escapeAmpersands` |
+| [Prepare for LaTeX: HTML to LaTeX](saveactions.md#Prepare-for-LaTeX:-HTML-to-LaTeX)                     | `html_to_latex` |
+| [Cleanup URL link](saveactions.md#cleanup-url-link)                                                     | `cleanup_url` |
+| [HTML to Unicode](saveactions.md#html-to-unicode)                                                       | `html_to_unicode` |
+| [Prepare for LaTeX: Cleanup](saveactions.md#Prepare-for-LaTeX:-Cleanup)                                 | `Prepare for LaTeX: Cleanup` |
+| [Normalize date](saveactions.md#normalize-date)                                                         | `normalize_date` |
+| [Normalize month](saveactions.md#normalize-month)                                                       | `normalize_month` |
+| [Normalize names of persons](saveactions.md#normalize-names-of-persons)                                 | `normalize_names` |
+| [Prepare for BibTeX: Normalize page numbers](saveactions.md#Prepare-for-BibTeX:-Normalize-page-numbers) | `Prepare for BibTeX: Normalize page numbers` |
+| [Ordinals to LaTeX superscript](saveactions.md#ordinals-to-latex-superscript)                           | `ordinals_to_superscript` |
+| [Remove enclosing braces](saveactions.md#remove-enclosing-braces)                                       | `remove_braces` |
+| [Shorten DOI](saveactions.md#shorten-doi)                                                               | `short_doi` |
+| [Prepare for LaTeX: Unicode to LaTeX](saveactions.md#Prepare-for-LaTeX:-Unicode-to-LaTeX)               | `Prepare for LaTeX: Unicode to LaTeX` |
+| [Latex to Unicode](saveactions.md#latex-to-unicode)                                                     | `latex_to_unicode` |
+| [Units to LaTeX](saveactions.md#units-to-latex)                                                         | `units_to_latex` |
+| [Unprotect terms](saveactions.md#unprotect-terms)                                                       | `unprotect_terms` |
+| [Capitalize](saveactions.md#capitalize)                                                                 | `capitalize` |
+| [Lower case](saveactions.md#lower-case)                                                                 | `lower_case` |
+| [Sentence case](saveactions.md#sentence-case)                                                           | `sentence_case` |
+| [Title case](saveactions.md#title-case)                                                                 | `title_case` |
+| [Upper case](saveactions.md#upper-case)                                                                 | `upper_case` |
+| [Minify list of person names](saveactions.md#minify-list-of-person-names)                               | `minify_name_list` |
 
