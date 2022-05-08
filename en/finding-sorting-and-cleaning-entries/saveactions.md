@@ -27,7 +27,7 @@ Escapes ampersands.
 
 * `Text & with &ampersands` ⇒ `Text \& with \&ampersands`
 
-### HTML to LaTeX
+### Prepare for LaTeX: HTML to LaTeX
 
 Converts HTML code to LaTeX code.
 
@@ -41,7 +41,7 @@ Cleanup URL links.
 
 Converts HTML code to Unicode.
 
-### LaTeX cleanup
+### Prepare for LaTeX: Cleanup
 
 Cleans up LaTeX code:
 
@@ -61,11 +61,11 @@ Normalizes the date to ISO date format. Format date string to yyyy-mm-dd or yyyy
 * "yyyy-MM-dd" \(covers 2009-1-15\)
 * "d.M.uuuu" \(covers 15.1.2015\)
 
-### Normalize month
+### Prepare for BibTeX: Normalize month
 
 Normalize month to Bib\(la\)TeX standard abbreviation.
 
-### Normalize names of persons
+### Prepare for BibTeX: Normalize names of persons
 
 Normalizes lists of persons to the Bib\(la\)TeX standard. This separates authors by "and"s with first names after last name separated by a comma; first names are not abbreviated.
 
@@ -73,7 +73,7 @@ Normalizes lists of persons to the Bib\(la\)TeX standard. This separates authors
 * "John Smith and Black Brown, Peter" ⇒ "Smith, John and Black Brown, Peter"
 * "John von Neumann and John Smith and Black Brown, Peter" ⇒ "von Neumann, John and Smith, John and Black Brown, Peter".
 
-### Normalize page numbers
+### Prepare for BibTeX: Normalize page numbers
 
 Normalize pages to Bib\(la\)TeX standard. Format page numbers, separated either by commas or double-hyphens. Converts the range number format to page\_number--page\_number. Removes unwanted literals except for letters, numbers, and -+ signs. Keeps the existing String if the resulting field does not match the expected Regex.
 
@@ -85,7 +85,7 @@ Normalize pages to Bib\(la\)TeX standard. Format page numbers, separated either 
 Invalid ⇒ Invalid
 ```
 
-### Ordinals to LaTeX superscript
+### Prepare for LaTeX: Ordinals to LaTeX superscript
 
 Converts ordinals to LaTeX superscripts, e.g. 1st, 2nd or 3rd. Will replace ordinal numbers even if they are semantically wrong, e.g. 21rd
 
@@ -99,7 +99,7 @@ Removes braces encapsulating the complete field content.
 
 Shortens DOI to more human-readable form using [http://shortdoi.org](http://shortdoi.org).
 
-### Unicode to LaTeX
+### Prepare for LaTeX: Unicode to LaTeX
 
 Converts Unicode characters to LaTeX encoding.
 
@@ -109,7 +109,7 @@ Converts LaTeX to Unicode characters if possible.
 
 * `$\acute{\omega}$` ⇒ `ώ`
 
-### Units to LaTeX
+### Prepare for LaTeX: Units to LaTeX
 
 Converts units to LaTeX formatting. This includes:
 
@@ -163,7 +163,7 @@ The [field formatters listed above](saveactions.md#list-of-actions) can also be 
 | [Normalize date](saveactions.md#normalize-date) | `normalize_date` |
 | [Normalize month](saveactions.md#normalize-month) | `normalize_month` |
 | [Normalize names of persons](saveactions.md#normalize-names-of-persons) | `normalize_names` |
-| [Normalize page numbers](saveactions.md#normalize-page-numbers) | `normalize_page_numbers` |
+| [Prepare for BibTeX: Normalize page numbers](saveactions.md#normalize-page-numbers) | `Prepare for BibTeX: Normalize page numbers` |
 | [Ordinals to LaTeX superscript](saveactions.md#ordinals-to-latex-superscript) | `ordinals_to_superscript` |
 | [Remove enclosing braces](saveactions.md#remove-enclosing-braces) | `remove_braces` |
 | [Shorten DOI](saveactions.md#shorten-doi) | `short_doi` |
