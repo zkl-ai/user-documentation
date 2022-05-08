@@ -163,7 +163,7 @@ The [field formatters listed above](saveactions.md#list-of-actions) can also be 
 | [Normalize date](saveactions.md#normalize-date)                                                                     | `normalize_date`             |
 | [Prepare for BibTeX: Normalize month](saveactions.md#Prepare-for-BibTeX:-Normalize-month)                           | `normalize_month`            |
 | [Prepare for BibTeX: Normalize names of persons](saveactions.md#Prepare-for-BibTeX:-Normalize-names-of-persons)     | `normalize_names`            |
-| [Prepare for BibTeX: Normalize page numbers](saveactions.md#Prepare-for-BibTeX:-Normalize-page-numbers)             | `normalize_page_numbers`     |
+| [Prepare for BibTeX: Normalize page numbers](saveactions.md#Prepare for BibTeX:-Normalize-page-numbers)             | `normalize_page_numbers`     |
 | [Prepare for LaTeX: Ordinals to LaTeX superscript](saveactions.md#Prepare-for-LaTeX:-Ordinals-to-LaTeX-superscript) | `ordinals_to_superscript`    |
 | [Remove enclosing braces](saveactions.md#remove-enclosing-braces)                                                   | `remove_braces`              |
 | [Shorten DOI](saveactions.md#shorten-doi)                                                                           | `short_doi`                  |
