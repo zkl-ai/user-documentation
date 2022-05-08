@@ -161,7 +161,7 @@ The [field formatters listed above](saveactions.md#list-of-actions) can also be 
 | [HTML to Unicode](saveactions.md#html-to-unicode)                                                                   | `html_to_unicode`            |
 | [Prepare for LaTeX: Cleanup](saveactions.md#Prepare-for-LaTeX:-Cleanup)                                             | `latex_cleanup` |
 | [Normalize date](saveactions.md#normalize-date)                                                                     | `normalize_date`             |
-| [Prepare for BibTeX: Normalize month](saveactions.md#Prepare-for-BibTeX:-Normalize-month)                           | `normalize_month`            |
+| [Prepare for BibTeX: Normalize month](saveactions.md#prepare-for-bibtex:-normalize-month)                           | `normalize_month`            |
 | [Prepare for BibTeX: Normalize names of persons](saveactions.md#Prepare-for-BibTeX:-Normalize-names-of-persons)     | `normalize_names`            |
 | [Prepare for BibTeX: Normalize page numbers](saveactions.md#Prepare for BibTeX:-Normalize-page-numbers)             | `normalize_page_numbers`     |
 | [Prepare for LaTeX: Ordinals to LaTeX superscript](saveactions.md#Prepare-for-LaTeX:-Ordinals-to-LaTeX-superscript) | `ordinals_to_superscript`    |
